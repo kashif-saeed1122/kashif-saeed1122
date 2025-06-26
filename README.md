@@ -1,7 +1,7 @@
 # 👋 I'm Malik Muhammad Kashif Saeed<br><br>**Software Developer | AI/ML Engineer | Backend Specialist**
 ### I'm a passionate software developer from Islamabad, Pakistan, with a strong focus on AI/ML and backend development. I love building intelligent systems that solve real-world problems, from chatbots and RAG systems to trading algorithms and automated workflows.<br>
 
-## About Me:<br><br>🔭 I'm currently working on **AI/ML projects and backend systems**<br><br>👯 I'm looking to collaborate on **AI agents, trading bots, and intelligent automation systems**<br><br>💬 Ask me about **RAG systems, LangChain, FastAPI, chatbot development, and AI model integration**<br>
+### About Me:<br><br>🔭 I'm currently working on **AI/ML projects and backend systems**<br><br>👯 I'm looking to collaborate on **AI agents, trading bots, and intelligent automation systems**<br><br>💬 Ask me about **RAG systems, LangChain, FastAPI, chatbot development, and AI model integration**<br>
 
 
 ## 🌐 Socials:
