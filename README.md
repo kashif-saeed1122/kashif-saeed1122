@@ -9,7 +9,7 @@
 
 ### 🚀 About Me
 
-I'm an **AI Engineer** based in Rawalpindi, Pakistan, with **3+ years** of experience designing, building, and deploying production-grade LLM systems — from agentic multi-agent orchestration pipelines to retrieval-augmented generation (RAG) architectures and scalable AWS infrastructure for enterprise clients.
+I'm an **AI Engineer** based in Islamabad, Pakistan, with **3+ years** of experience designing, building, and deploying production-grade LLM systems — from agentic multi-agent orchestration pipelines to retrieval-augmented generation (RAG) architectures and scalable AWS infrastructure for enterprise clients.
 
 - 🔭 Most recently led architecture & engineering of **GovHub** — a production AI platform ingesting thousands of SAM.gov federal contracting opportunities daily through a **LangGraph multi-agent pipeline** with automated compliance checking, scoring, and executive summary generation.
 - 🧠 Deep expertise across the full AI stack: multi-agent system design with **LangGraph StateGraphs**, tool/function calling, hybrid vector search, LLM observability with **Langfuse**, prompt engineering, and end-to-end AWS deployment.
