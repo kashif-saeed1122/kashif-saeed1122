@@ -9,7 +9,7 @@
 
 ### 🚀 About Me
 
-I'm an **AI Engineer** based in Islamabad, Pakistan, with **3+ years** of experience designing, building, and deploying production-grade LLM systems — from agentic multi-agent orchestration pipelines to retrieval-augmented generation (RAG) architectures and scalable AWS infrastructure for enterprise clients.
+I'm an **AI Engineer** based in Rawalpindi, Pakistan, with **3+ years** of experience designing, building, and deploying production-grade LLM systems — from agentic multi-agent orchestration pipelines to retrieval-augmented generation (RAG) architectures and scalable AWS infrastructure for enterprise clients.
 
 - 🔭 Most recently led architecture & engineering of **GovHub** — a production AI platform ingesting thousands of SAM.gov federal contracting opportunities daily through a **LangGraph multi-agent pipeline** with automated compliance checking, scoring, and executive summary generation.
 - 🧠 Deep expertise across the full AI stack: multi-agent system design with **LangGraph StateGraphs**, tool/function calling, hybrid vector search, LLM observability with **Langfuse**, prompt engineering, and end-to-end AWS deployment.
@@ -32,14 +32,54 @@ I'm an **AI Engineer** based in Islamabad, Pakistan, with **3+ years** of experi
 
 ---
 
-### 💼 Experience
+### 💼 What I've Built
 
-| Company | Role | Duration |
-|---|---|---|
-| **Marsons Media** | Lead AI Engineer | 02/2026 – 05/2026 |
-| **Codeaza Technologies** | AI/ML Engineer & Full Stack Developer | 09/2024 – 01/2026 |
-| **Maida.co** | Software Developer | 11/2023 – 09/2024 |
-| **InceptAI** | Prompt Engineer | 11/2023 – 01/2024 |
+<details open>
+<summary><b>🟢 GovHub — AI Government Contracting Intelligence Platform</b></summary>
+<br>
+
+- Led full architecture & engineering of a production AI SaaS platform ingesting **thousands of SAM.gov opportunities daily**, running a multi-stage LangGraph pipeline with compliance reports and win-probability scores.
+- Designed a **6-agent LangGraph StateGraph** orchestration system (`llm_match`, `document_parser`, `compliance_checker`, `score_calculator`, `opportunity_orchestrator`, `company_match`) via an agent registry pattern with runtime dependency injection.
+- Built a two-stage AI pipeline: real-time GPT-4.1-mini quick-match scoring, plus on-demand full RFP/SOW parsing and BLUF summary generation via Claude's 200K context window.
+- Engineered the SAM.gov ingestion pipeline (paginated fetch → PostgreSQL upsert → async S3 streaming → Lambda → ECS Fargate dispatch) and a multi-format document intelligence layer (PDF, Word, Excel, HTML).
+- Integrated **Langfuse** for full LLM observability — traces, token cost, and latency across all agents.
+- Deployed on **AWS** (ECS Fargate, Lambda, RDS, S3, ECR, Secrets Manager, private-subnet VPC) with a GitHub Actions CI/CD pipeline for zero-downtime rolling updates.
+</details>
+
+<details>
+<summary><b>🔵 Intella Part AI — Industrial RAG System (30+ Brands, 4,000+ Manuals)</b></summary>
+<br>
+
+- Architected and shipped a production RAG system adopted across **30+ industrial brands** for natural-language Q&A over technical documentation.
+- Built an ingestion pipeline for **5,000+ manuals** using Voyage AI embeddings and Elasticsearch, hitting sub-second p95 query latency.
+</details>
+
+<details>
+<summary><b>🟣 Real Estate Property QA Chatbot</b></summary>
+<br>
+
+- Designed a hybrid retrieval architecture (Qdrant + BM25 + reranking), improving search relevance by **~50%** over baseline keyword search.
+- Built a FastAPI backend with **<200ms p95** response time; owned the project end-to-end from discovery to AWS deployment.
+</details>
+
+<details>
+<summary><b>🟠 Sentimantle — ML Sentiment Analysis Platform</b></summary>
+<br>
+
+- Maintained production ML inference pipelines on AWS ECS, sustaining **99%+ uptime**.
+- Cut API response times by **40%** through MySQL query rewriting and index tuning.
+</details>
+
+<details>
+<summary><b>🔴 Document QA Chatbot & LLM Benchmarking Tools</b></summary>
+<br>
+
+- Built a **LlamaIndex-based RAG chatbot** for semantic Q&A over uploaded documents.
+- Developed **LLM Wars**, a GPT vs. Gemini output-quality benchmarking framework.
+- Built **Echo App**, a Node.js backend integrating an AI image model for automated social content generation.
+</details>
+
+<br>
 
 🎓 **B.E. Computer Software Engineering** — National University of Sciences and Technology (NUST), Islamabad
 
